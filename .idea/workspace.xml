@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34a2ab4d-ae3b-43b4-8c57-330a0fae696e" name="Default Changelist" comment="" />
+    <list default="true" id="34a2ab4d-ae3b-43b4-8c57-330a0fae696e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTests/CreateAPIBooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTests/DeleteAPIBooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/frontEndTests/DeleteUIBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreateBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frontEndTests/CreateUIBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DeleteBooking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/FunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReadPropertiesFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReadPropertiesFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/CreateBooking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/DeleteBooking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/FunctionalTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReadPropertiesFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ReadPropertiesFile.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +32,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XCjlsmseykCO9Pyh0ePCXXY3Aq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +44,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -32,86 +55,130 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DeleteBooking.DeleteLatestBooking">
-    <configuration name="CreateBooking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DeleteUIBooking">
+    <configuration name="CreateAPIBooking.createBooking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="equal-experts-tech-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="apiTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CreateBooking" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="apiTests" />
+      <option name="MAIN_CLASS_NAME" value="apiTests.CreateAPIBooking" />
+      <option name="METHOD_NAME" value="createBooking" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateBooking.createBookingForToday" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateAPIBooking.createBookingForToday" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="equal-experts-tech-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="apiTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CreateBooking" />
+      <option name="PACKAGE_NAME" value="apiTests" />
+      <option name="MAIN_CLASS_NAME" value="apiTests.CreateAPIBooking" />
       <option name="METHOD_NAME" value="createBookingForToday" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteBooking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateUIBooking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="equal-experts-tech-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="frontEndTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.DeleteBooking" />
+      <option name="PACKAGE_NAME" value="frontEndTests" />
+      <option name="MAIN_CLASS_NAME" value="frontEndTests.CreateUIBooking" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeleteBooking.DeleteLatestBooking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="equal-experts-tech-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.DeleteBooking" />
-      <option name="METHOD_NAME" value="DeleteLatestBooking" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <envs>
-        <env name="-DbrowserName" value="firefox" />
+        <env name="browserName" value="chrome" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteAPIBooking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="equal-experts-tech-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTests" />
+      <option name="MAIN_CLASS_NAME" value="apiTests.DeleteAPIBooking" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="browserName" value="firefox" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteAPIBooking.deleteLatestBooking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="equal-experts-tech-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTests" />
+      <option name="MAIN_CLASS_NAME" value="apiTests.DeleteAPIBooking" />
+      <option name="METHOD_NAME" value="deleteLatestBooking" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteUIBooking" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="equal-experts-tech-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frontEndTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="frontEndTests" />
+      <option name="MAIN_CLASS_NAME" value="frontEndTests.DeleteUIBooking" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="browserName" value="firefox" />
       </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CreateBooking.createBookingForToday" />
-      <item itemvalue="JUnit.CreateBooking" />
-      <item itemvalue="JUnit.DeleteBooking" />
-      <item itemvalue="JUnit.DeleteBooking.DeleteLatestBooking" />
+      <item itemvalue="JUnit.CreateAPIBooking.createBookingToDelete" />
+      <item itemvalue="JUnit.CreateAPIBooking.createBookingForToday" />
+      <item itemvalue="JUnit.DeleteAPIBooking.deleteLatestBooking" />
+      <item itemvalue="JUnit.DeleteAPIBooking" />
+      <item itemvalue="JUnit.CreateUIBooking" />
+      <item itemvalue="JUnit.DeleteUIBooking" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DeleteBooking.DeleteLatestBooking" />
-        <item itemvalue="JUnit.DeleteBooking" />
-        <item itemvalue="JUnit.CreateBooking.createBookingForToday" />
-        <item itemvalue="JUnit.CreateBooking" />
+        <item itemvalue="JUnit.DeleteAPIBooking" />
+        <item itemvalue="JUnit.CreateUIBooking" />
+        <item itemvalue="JUnit.CreateAPIBooking.createBookingForToday" />
+        <item itemvalue="JUnit.DeleteAPIBooking.deleteLatestBooking" />
+        <item itemvalue="JUnit.CreateAPIBooking.createBookingToDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -129,70 +196,90 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="233" y="106" key="#DeleteUIBooking" timestamp="1580927664681">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="233" y="106" key="#DeleteUIBooking/0.23.1440.820@0.23.1440.820" timestamp="1580927664681" />
     <state x="320" y="98" key="#Project_Structure" timestamp="1580573192014">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="320" y="98" key="#Project_Structure/0.23.1440.820@0.23.1440.820" timestamp="1580573192014" />
-    <state x="123" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580667615109">
+    <state x="396" y="206" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1580921659440">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state x="123" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.820@0.23.1440.820" timestamp="1580667615109" />
+    <state x="396" y="206" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.820@0.23.1440.820" timestamp="1580921659440" />
+    <state x="123" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580927934257">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="123" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.820@0.23.1440.820" timestamp="1580927934257" />
     <state x="446" y="145" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1580667584779">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="446" y="145" key="#com.intellij.ide.macro.MacrosDialog/0.23.1440.820@0.23.1440.820" timestamp="1580667584779" />
+    <state x="208" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580886598220">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="208" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.820@0.23.1440.820" timestamp="1580886598220" />
     <state x="458" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580561875264">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="458" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.820@0.23.1440.820" timestamp="1580561875264" />
+    <state x="421" y="143" key="#xdebugger.evaluate" timestamp="1580907686344">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="421" y="143" key="#xdebugger.evaluate/0.23.1440.820@0.23.1440.820" timestamp="1580907686344" />
     <state x="413" y="205" key="EnvironmentVariablesDialog" timestamp="1580658534727">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="413" y="205" key="EnvironmentVariablesDialog/0.23.1440.820@0.23.1440.820" timestamp="1580658534727" />
-    <state width="1265" height="198" key="GridCell.Tab.0.bottom" timestamp="1580668627755">
+    <state width="1265" height="198" key="GridCell.Tab.0.bottom" timestamp="1580928036301">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1265" height="198" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1580668627755" />
-    <state width="1265" height="198" key="GridCell.Tab.0.center" timestamp="1580668627754">
+    <state width="1265" height="198" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1580928036301" />
+    <state width="1265" height="198" key="GridCell.Tab.0.center" timestamp="1580928036300">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1265" height="198" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1580668627754" />
-    <state width="1265" height="198" key="GridCell.Tab.0.left" timestamp="1580668627753">
+    <state width="1265" height="198" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1580928036300" />
+    <state width="1265" height="198" key="GridCell.Tab.0.left" timestamp="1580928036300">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1265" height="198" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1580668627753" />
-    <state width="1265" height="198" key="GridCell.Tab.0.right" timestamp="1580668627754">
+    <state width="1265" height="198" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1580928036300" />
+    <state width="1265" height="198" key="GridCell.Tab.0.right" timestamp="1580928036301">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1265" height="198" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1580668627754" />
-    <state width="1265" height="246" key="GridCell.Tab.1.bottom" timestamp="1580668231237">
+    <state width="1265" height="198" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1580928036301" />
+    <state width="1265" height="246" key="GridCell.Tab.1.bottom" timestamp="1580926821501">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1265" height="246" key="GridCell.Tab.1.bottom/0.23.1440.820@0.23.1440.820" timestamp="1580668231237" />
-    <state width="1265" height="246" key="GridCell.Tab.1.center" timestamp="1580668231237">
+    <state width="1265" height="246" key="GridCell.Tab.1.bottom/0.23.1440.820@0.23.1440.820" timestamp="1580926821501" />
+    <state width="1265" height="246" key="GridCell.Tab.1.center" timestamp="1580926821500">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1265" height="246" key="GridCell.Tab.1.center/0.23.1440.820@0.23.1440.820" timestamp="1580668231237" />
-    <state width="1265" height="246" key="GridCell.Tab.1.left" timestamp="1580668231236">
+    <state width="1265" height="246" key="GridCell.Tab.1.center/0.23.1440.820@0.23.1440.820" timestamp="1580926821500" />
+    <state width="1265" height="246" key="GridCell.Tab.1.left" timestamp="1580926821499">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1265" height="246" key="GridCell.Tab.1.left/0.23.1440.820@0.23.1440.820" timestamp="1580668231236" />
-    <state width="1265" height="246" key="GridCell.Tab.1.right" timestamp="1580668231237">
+    <state width="1265" height="246" key="GridCell.Tab.1.left/0.23.1440.820@0.23.1440.820" timestamp="1580926821499" />
+    <state width="1265" height="246" key="GridCell.Tab.1.right" timestamp="1580926821500">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1265" height="246" key="GridCell.Tab.1.right/0.23.1440.820@0.23.1440.820" timestamp="1580668231237" />
+    <state width="1265" height="246" key="GridCell.Tab.1.right/0.23.1440.820@0.23.1440.820" timestamp="1580926821500" />
     <state x="146" y="23" width="1024" height="820" key="SettingsEditor" timestamp="1580668216375">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="146" y="23" width="1024" height="820" key="SettingsEditor/0.23.1440.820@0.23.1440.820" timestamp="1580668216375" />
+    <state width="653" height="390" key="XDebugger.FullValuePopup" timestamp="1580835573945">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="653" height="390" key="XDebugger.FullValuePopup/0.23.1440.820@0.23.1440.820" timestamp="1580835573945" />
     <state x="396" y="193" width="524" height="484" key="extract.method.dialog" timestamp="1580605186247">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="396" y="193" width="524" height="484" key="extract.method.dialog/0.23.1440.820@0.23.1440.820" timestamp="1580605186247" />
-    <state x="312" y="23" width="816" height="820" key="find.popup" timestamp="1580661775738">
+    <state x="312" y="23" width="816" height="820" key="find.popup" timestamp="1580886548973">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state x="312" y="23" width="816" height="820" key="find.popup/0.23.1440.820@0.23.1440.820" timestamp="1580661775738" />
+    <state x="312" y="23" width="816" height="820" key="find.popup/0.23.1440.820@0.23.1440.820" timestamp="1580886548973" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -203,36 +290,41 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/frontEndTests/DeleteUIBooking.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/frontEndTests/DeleteUIBooking.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/frontEndTests/DeleteUIBooking.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/frontEndTests/DeleteUIBooking.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/utilities/ReadPropertiesFile.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="50" />
+          <line>10</line>
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/System.java</url>
-          <line>770</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/System.java</url>
-          <line>771</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/System.java</url>
-          <line>776</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/System.java</url>
-          <line>772</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/System.java</url>
-          <line>773</line>
-          <option name="timeStamp" value="57" />
+          <url>file://$PROJECT_DIR$/src/test/java/apiTests/CreateAPIBooking.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="118" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/equal_experts_tech_test$CreateAPIBooking_createBookingToDelete.ic" NAME="CreateAPIBooking.createBookingToDelete Coverage Results" MODIFIED="1580908414973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>apiTests.*</FILTER>
+    </SUITE>
   </component>
 </project>
