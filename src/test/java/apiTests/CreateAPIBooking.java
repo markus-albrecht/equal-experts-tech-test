@@ -61,6 +61,7 @@ public class CreateAPIBooking {
         assertTrue(dp.equals(deposit.toString()));
         assertTrue(ci.equals(checkInDate));
         assertTrue(co.equals(checkOutDate));
+        System.out.println("BookingId is " + id);
 
         //Confirm the booking is created
         this.url = ReadPropertiesFile.getUrl("booking");
@@ -71,7 +72,6 @@ public class CreateAPIBooking {
 
         this.response = httpRequest.get(url+ "/" + id);
         String responseBody = this.response.asString();
-        System.out.print(responseBody);
         assertEquals(200, response.statusCode());
         assertTrue(responseBody.contains(firstName));
         System.out.println("Booking successfully created.");

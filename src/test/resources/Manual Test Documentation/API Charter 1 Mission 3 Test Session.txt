@@ -1,0 +1,35 @@
+Test Level: API
+Charter: 1) Delete Booking
+Mission: 3) Invalid Booking
+Date: 06/02/2020
+
+Http Client: Postman 6.0.9
+OS: OSX 10.14.6
+
+
+Test Session
+
+* Sent a delete request with bookingId of 567890 (too high to have ever existed). This resulted in a 405 Method Not Allowed response. This should have been a 404 Not Found. 
+
+* Sent a delete request with bookingId of 13442 (A previously deleted booking). This resulted in a 405 Method Not Allowed response. This should have been a 404 Not Found.
+
+* Sent a delete request with bookingId of qwerty@234. This resulted in a 405 Method Not Allowed response. This should have been a 400 Bad Request.
+
+* Sent a delete request with no bookingId. This resulted in a 404 Not Found. This should have been a 400 Bad Request.
+
+
+Potential Defects:
+1) Attempting to delete a bookingId that does not exist results in a 405 not a 404.
+2) Invalid bookingId results in 405 not a 400.
+3) Delete request with no bookingId results in a 404 not a 400. 
+
+
+Not Covered:
+
+* DD MM YYYY hh mm ss format test
+* MM DD YYYY hh mm ss format test
+* YYYY MM DD hh mm ss format test
+
+
+
+

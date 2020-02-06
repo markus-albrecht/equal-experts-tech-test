@@ -1,0 +1,59 @@
+Test Level: User Interface
+Charter: 1) Valid Booking Creation
+Mission: 5) Explore Check in field
+Date: 06/02/2020
+
+Browser: Chrome Version 79.0.3945.130 (Official Build) (64-bit)
+OS: OSX 10.14.6
+
+Set up:
+During each test (bullet point) the below fields will have the following values. So as to isolate the field under test.
+First Name = John
+Last name = Johnson
+Price = 100
+Deposit = True
+Check out date 19/02/2020
+
+
+Test Session
+
+I firstly navigated to http://hotel-test.equalexperts.io/  
+
+Date Picker
+
+* I left the check in date field blank and clicked save. The entry was not created. I repeated the action with the Network tab of dev tools open and there was an Internal server error associated with the save request.
+
+* I selected a value of 06/02/2020 from the check in date picker and clicked save. There was a lag in the entry saving. So I impatiently selected save again. This resulted in 2 identical bookings being created. 
+
+* I selected a value of 31/01/2020 from the check in date picker and clicked save. The booking was created. I do not think this is expected behaviour.
+
+* I selected a value of 06/01/2050 from the check in date picker and clicked save. The booking was created. This should be discussed with the PO as to whether this is desired behaviour to have a booking created so far in the future.
+
+* I selected a value of 20/02/2020 from the check in date picker and clicked save. Which is after the check out date. The booking was created. I do not think this is expected behaviour. 
+
+Free Text Entry 
+
+* I entered 22022020 into the check in field and clicked save. The booking was created. However the the checkin date was listed as 1970-01-01.
+
+* I entered 2020-12-25 into the check in field and clicked save. The booking was created as expected.
+
+* I entered 2020-13-05 into the check in field and clicked save. The entry was not created. I repeated the action with the Network tab of dev tools open and there was an Internal server error associated with the save request.
+
+* I was unable to enter alpha and special characters that were not  "-". As expected. 
+
+
+Potential Defects:
+1) No front end validation of an empty check in date field.
+2) Identical bookings can be created.
+3) Bookings can be created with a check in date that is in the past.
+4) Bookings can be created with a check in date that is greater than the check out date.
+5) Check in dates with all numeric characters, but not in date format result in a check in date of 1970-01-01
+6) Invalid date results in 500 status code but no front end notification.
+
+Not Covered:
+
+N/A
+
+
+
+

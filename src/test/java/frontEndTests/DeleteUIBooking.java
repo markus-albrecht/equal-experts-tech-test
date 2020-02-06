@@ -14,6 +14,7 @@ public class DeleteUIBooking extends TestHelper {
 
 
     @Test
+    //This test currently fails when run with CHrome
     public void DeleteLatestBooking() throws InterruptedException {
         createUIBooking.createBookingForToday();
         Integer numberOfRows = getNumberOfBookings();
@@ -22,6 +23,7 @@ public class DeleteUIBooking extends TestHelper {
                 + "]/div[1]/p")));
         String deleteButtonXpath = "/html/body/div[1]/div[2]/div[" + numberOfRows + "]/div[7]/input";
         driver.findElement(By.xpath(deleteButtonXpath)).click();
+        loadPage("homePage");
         List<WebElement> fn =  driver.findElements(By.xpath("/html/body/div[1]/div[2]/div[" + numberOfRows
             + "]/div[1]/p"));
 
