@@ -12,7 +12,6 @@ import static org.junit.Assert.assertTrue;
 public class DeleteUIBooking extends TestHelper {
     CreateUIBooking createUIBooking = new CreateUIBooking();
 
-
     @Test
     //This test currently fails when run with CHrome
     public void DeleteLatestBooking() throws InterruptedException {

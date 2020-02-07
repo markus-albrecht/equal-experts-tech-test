@@ -1,11 +1,25 @@
 # equal-experts-tech-test
 
 # Automated Checks
+
+# From the command line
+For the UI tests run each below command for each UI test class:
+ 
+* browserName=chrome mvn -Dtest=DeleteUIBooking test
+* browserName=chrome mvn -Dtest=DeleteUIBooking test
+NB: the browserName is configurable to use chrome and firefox only
+
+The API tests run each below command for each API test class:
+* mvn -Dtest=DeleteAPIBooking test
+* mvn -Dtest=CreateAPIBooking test
+
+
+#From an IDE
 To run the UI tests create a JUnit configuration for the below classes
 * CreateUIBooking
 * DeleteUIBooking
 
-Please Note: that you will need to provide one of the two environment variables to determine the browser you wish to 
+NB: that you will need to provide one of the two environment variables to determine the browser you wish to 
 execute the tests in:    
 * browserName=firefox
 * browserName=chrome
@@ -15,7 +29,6 @@ To run the API tests create a JUnit configuration for the below classes
 * DeleteAPIBooking
 
 # Manual Testing
-
 In the "src/test/resources/Manual Test Documentation" directory you will find the manual testing documentation.
 This consists of 2 types of documents:
 * Mind map.xmind

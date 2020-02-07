@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34a2ab4d-ae3b-43b4-8c57-330a0fae696e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Manual Test Documentation/API Charter 1 Mission 3 Test Session.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Manual Test Documentation/API Testing Mind Map.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Manual Test Documentation/Front End Testing Mind Map.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Manual Test Documentation/UI Create Booking Charter 1 Mission 5 Test Session.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiTests/CreateAPIBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTests/CreateAPIBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTests/DeleteAPIBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTests/DeleteAPIBooking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/frontEndTests/DeleteUIBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frontEndTests/DeleteUIBooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/apiTests/CreateAPIBooking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/apiTests/CreateAPIBooking.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,22 +231,22 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="413" y="205" key="EnvironmentVariablesDialog/0.23.1440.820@0.23.1440.820" timestamp="1580658534727" />
-    <state width="1265" height="198" key="GridCell.Tab.0.bottom" timestamp="1581028784657">
+    <state width="1265" height="198" key="GridCell.Tab.0.bottom" timestamp="1581028884515">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1265" height="198" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1581028784657" />
-    <state width="1265" height="198" key="GridCell.Tab.0.center" timestamp="1581028784656">
+    <state width="1265" height="198" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1581028884515" />
+    <state width="1265" height="198" key="GridCell.Tab.0.center" timestamp="1581028884515">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1265" height="198" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1581028784656" />
-    <state width="1265" height="198" key="GridCell.Tab.0.left" timestamp="1581028784655">
+    <state width="1265" height="198" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1581028884515" />
+    <state width="1265" height="198" key="GridCell.Tab.0.left" timestamp="1581028884514">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1265" height="198" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1581028784655" />
-    <state width="1265" height="198" key="GridCell.Tab.0.right" timestamp="1581028784656">
+    <state width="1265" height="198" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1581028884514" />
+    <state width="1265" height="198" key="GridCell.Tab.0.right" timestamp="1581028884515">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1265" height="198" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1581028784656" />
+    <state width="1265" height="198" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1581028884515" />
     <state width="1265" height="246" key="GridCell.Tab.1.bottom" timestamp="1581028685205">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
@@ -295,22 +290,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/frontEndTests/DeleteUIBooking.java</url>
-          <line>22</line>
+          <line>21</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/frontEndTests/DeleteUIBooking.java</url>
-          <line>24</line>
+          <line>23</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/frontEndTests/DeleteUIBooking.java</url>
-          <line>20</line>
+          <line>19</line>
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/frontEndTests/DeleteUIBooking.java</url>
-          <line>29</line>
+          <line>28</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

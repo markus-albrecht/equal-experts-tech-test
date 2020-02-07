@@ -5,7 +5,6 @@ import io.restassured.http.Header;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.junit.Test;
-import utilities.TestHelper;
 import utilities.ReadPropertiesFile;
 
 import static org.junit.Assert.*;
